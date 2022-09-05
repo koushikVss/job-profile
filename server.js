@@ -6,7 +6,7 @@ const routes= require('./routes/profileroutes')
 const app = express();
 const cors = require("cors")
 
-const DB_URI='mongodb+srv://profiledb:profile@profiledb.chkah5s.mongodb.net/?retryWrites=true&w=majority' ;
+const DB_URI='mongodb+srv://profile:profile@profiledb.aowrv0y.mongodb.net/?retryWrites=true&w=majority' ;
 // const DB_URI='mongodb://localhost:27017/Profile' ;
 // const DB_URI = process.env.MONGODB_SERVER;
 
