@@ -15,8 +15,8 @@ app.use(cors())
 app.use(
     cors({
         // origin: process.env.FRONT,//"http://localhost:3000",
-        origin:"https://job-profileapi.herokuapp.com",
-        // origin: "http://localhost:3000",
+        // origin:"https://job-profileapi.herokuapp.com",
+        origin: "http://localhost:3000",
         methods: "GET,POST,PUT,DELETE",
         credentials: true,
     })
