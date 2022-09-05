@@ -16,7 +16,7 @@ app.use(
     cors({
         // origin: process.env.FRONT,//"http://localhost:3000",
         // origin:"https://job-profileapi.herokuapp.com",
-        origin: "http://localhost:3000",
+        origin: "https://huntjob.netlify.app/",
         methods: "GET,POST,PUT,DELETE",
         credentials: true,
     })
@@ -36,7 +36,7 @@ app.use('/api/v1', routes);
 
 
 
-const port=process.env.PORT || 8000;
+const port= process.env.PORT || 8000;
 app.listen(port, () => {
     console.log(`server running on port ${port}`)
 })
